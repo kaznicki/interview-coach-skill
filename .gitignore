@@ -6,3 +6,14 @@ coaching_state.md
 
 # Active skill file (created by copying SKILL.md during setup)
 CLAUDE.md
+
+# Personal documents and recordings
+files/
+build_principal_resume.js
+
+# Backup and scratch files
+CLAUDE.md-BAK
+archive/
+
+# Claude Code local worktrees (machine-specific)
+.claude/worktrees/
