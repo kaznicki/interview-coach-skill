@@ -6,7 +6,9 @@
       "Bash(powershell:*)",
       "Bash(which:*)",
       "Bash(ls:*)",
-      "Bash(command:*)"
+      "Bash(command:*)",
+      "Bash(find:*)",
+      "Bash(echo:*)"
     ]
   }
 }
