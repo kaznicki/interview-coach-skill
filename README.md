@@ -1,6 +1,9 @@
 # Interview Coach
 
-This is a fork from the original, found here: https://github.com/noamseg/interview-coach-skill.   That repo seemed dead and I wanted to make a number of changes to make it work more efficiently.
+This is a fork from the original, found here: https://github.com/noamseg/interview-coach-skill.   That repo seemed dead and I wanted to make a number of changes to make it work more efficiently.    
+Main changes:
+ - Significantly less context consumption on startup.   The original CLAUDE.md file was quite large and used 40% of context in Sonnet 4.5.  This is cleaned up.
+ - Prefaced / commands with "coach" to disambiguate commands in this skill from others.   Usage: /coach:decode
 
 OG Description: A Claude Code-based interview coach that covers the full job search lifecycle — from JD analysis and resume optimization through mock interviews to post-offer negotiation. 23 commands across application materials, interview prep, practice, analysis, and comp coaching. It scores your answers across five dimensions, diagnoses root causes behind weak spots, builds a storybank you can retrieve under pressure, and adapts its coaching to your specific patterns. Not a generic question bank. An adaptive system that gets sharper the more you use it.
 
